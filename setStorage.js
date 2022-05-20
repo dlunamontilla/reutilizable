@@ -19,8 +19,11 @@ function setStorage(key, object) {
         data.push(...JSON.parse(dataString));
     }
 
-    const { length } = data;
-    data.push({ id: length + 1, ...object });
+    // const { length } = data;
+    // data.push({ id: length + 1, ...object });
+    
+    data.push(object);
 
     localStorage.setItem(key, JSON.stringify(data));
+    return data;
 }
