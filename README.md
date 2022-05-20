@@ -66,7 +66,7 @@ data.updateData({
 
 Donde `nameId` es el nombre del **ID** (de no especificarlo su nombre por defecto será `id`), `field` es el nombre del campo a modificar (en este caso, fue `qty`) y `value` el valor que se asignará a ese campo o propiedad.
 
-Si el campo `nameId` no lo defines su nombre de identificador sería `id`.
+Si el campo `nameId` no lo defines su nombre de identificador por defecto será `id`.
 
 Por ejemplo:
 
