@@ -55,11 +55,13 @@ const data = [
 Y se desea modificar el campo `qty` o cualquier otro campo, por ejemplo, `name` solo debe invocar el método `updateData` para lograr dicho objetivo:
 
 ```js
+const id = 1;
+
 data.updateData({
     nameId: 'id_product',
     field: 'qty',
     value: 30
-});
+}, id);
 ```
 
 Donde `nameId` es el nombre del **ID** (de no especificarlo su nombre por defecto será `id`), `field` es el nombre del campo a modificar (en este caso, fue `qty`) y `value` el valor que se asignará a ese campo o propiedad.
