@@ -1,7 +1,7 @@
 
 /**
  * 
- * @param {Object<string, string|number} object Debe pasar como parámetro un objeto. En este
+ * @param {Object<string, string|number>} object Debe pasar como parámetro un objeto. En este
  * debe especificar el nombre del campo que será tratada como ID. En caso de no hacerlo el
  * nombre predeterminado será «id». También debe elegir el nombre del campo a modificar y el
  * valor que se asignará a dicho campo.
@@ -26,4 +26,4 @@ Array.prototype.updateData = function (object, id) {
     }
 }
 
-export {};
+export { };
